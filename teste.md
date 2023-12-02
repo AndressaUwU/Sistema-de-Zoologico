@@ -45,22 +45,22 @@ Se nenhum quarto estiver reservado, uma mensagem apropriada é exibida.
 Inicializa o array de reservas, configurando cada quarto como livre e sem ocupante.\
 Essa função evita problemas ao garantir que todos os quartos estejam prontos para receber reservas.
 
-  - função..\ 
+  - função\ 
 Realiza uma reserva em um quarto específico, solicitando informações do hóspede.\
 Esta função fornece uma maneira de reservar um quarto e manter o controle de ocupação.\
 Essa função é a principal função do programa, ela é basicamente como a caneta que escreve quais quartos serão reservados, por quem
 e por quantos dias, isso funciona alocando um espaço na memoria, se ele for 1, o quarto está reservado, se for 0, está livre.
 
-  - função..\ 
+  - função\ 
 Realiza o check-in em um quarto específico, exibindo informações do hóspede se o quarto estiver ocupado.\
 A função permite verificar quem está hospedado em um quarto antes de realizar o check-in, proporcionando uma visão rápida do estado do quarto, a função não especifica quantos dias a pessoa vai estar no quarto, apenas diz se ele está ocupado e se sim, quem o está ocupando.
 
-  - função.\  
+  - função\  
 Realiza o check-out de um quarto específico, liberando o quarto se estiver ocupado.\
 Esta função permite desocupar um quarto, garantindo que ele esteja pronto para novas reservas.\
 Esta função basicamente reescreve o quarto selecionado de 1 para 0 no espaço de memória que foi alocado.
 
-  - função.\ 
+  - função\ 
 Exibe informações sobre os quartos reservados, indicando ocupante e tempo de reserva.\
 A função fornece uma visão geral dos quartos ocupados, facilitando o acompanhamento dos hóspedes por parte da equipe do hotel.\
 É uma das funções que mais importa, e a que mais apresentou erros na hora de testar o programa.\
